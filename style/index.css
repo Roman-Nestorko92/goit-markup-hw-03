@@ -18,14 +18,16 @@ color: #212121;
     display: flex;
 }
 
-.header__link{
+.contact_web{
+text-decoration: none;
 font-family: 'Raleway';
 font-style: normal;
 font-weight: 700;
 font-size: 26px;
-line-height: 31px;
+line-height: calc(31 / 26);
 letter-spacing: 0.03em;
 padding-right: 50px;
+color: #212121;  
 }
 
 .header-web-1{
@@ -42,9 +44,9 @@ padding-right: 50px;
 
 .contact_link{
     text-decoration: none;
-    color: #212121;
+    color:#757575;
     font-size: 14px;
-    line-height: 16px;
+    line-height: calc(16 / 14);
     letter-spacing: 0.02em; 
     margin-right: 10px;   
 }
@@ -60,11 +62,11 @@ background: #2F303A;
 text-align: center;
 }
 
-.main_title{
+.hero_title{
 width: 650px;
 font-weight: 900;
 font-size: 44px;
-line-height: 60px;
+line-height: calc(60 / 44);
 letter-spacing: 0.06em;
 text-transform: uppercase;
 color: #FFFFFF;
@@ -75,17 +77,18 @@ padding-left: calc(50% - 300px);
 .main_buttom{
 width: 216px;
 height: 50px;
-background: #2196F3;
+background-color: #2196F3;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
 border: #2196F3;
-font-family: 'Roboto';
+font-family: inherit;
 font-style: normal;
 font-weight: 700;
 font-size: 16px;
-line-height: 30px;
+line-height: calc(30 / 16);
 letter-spacing: 0.06em;
 color: #FFFFFF;
+cursor: pointer;
 }
 
 .main_section_two{
@@ -118,14 +121,14 @@ height: 98px;
 
 .main_about-title{    
     font-size: 14px;
-    line-height: 16px;
+    line-height: calc(16 / 14);
     letter-spacing: 0.03em;
     text-transform: uppercase;    
     color: #212121;
 }
 
 .main_about-text{
-    line-height: 24px;
+    line-height: calc(24 / 14);
     letter-spacing: 0.03em;
     color: #757575;
 }
@@ -149,7 +152,7 @@ text-align: center;
 
 .main_section_title{
 font-size: 36px;
-line-height: 42px;
+line-height: calc(42 / 36);
 text-align: center;
 letter-spacing: 0.03em;
 color: #212121;
@@ -164,7 +167,7 @@ padding-top: 50px;
 
 .main_section_title{
 font-size: 36px;
-line-height: 42px;
+line-height: calc(42 / 36);
 text-align: center;
 letter-spacing: 0.03em;
 color: #212121;
@@ -194,7 +197,7 @@ text-align: center;
 .footer_contact{
 width: 1600px;
 height: 198px;
-background: #2F303A;
+background-color: #2F303A;
 padding-top: 60px;
 }
 
@@ -205,7 +208,7 @@ font-family: 'Raleway';
 font-style: normal;
 font-weight: 700;
 font-size: 26px;
-line-height: 31px;
+line-height: calc(31 / 26);
 letter-spacing: 0.03em;
 color: #2196F3;
 text-decoration: none;
@@ -226,7 +229,7 @@ margin-left: 250px;
 
 .footer_contact-lii{
 font-style: normal;
-line-height: 24px;
+line-height: calc(24 / 14);
 letter-spacing: 0.03em;
 color: #FFFFFF;
 text-decoration: none;
@@ -235,7 +238,7 @@ text-decoration: none;
 .footer_contact-li{
 font-style: normal;
 font-size: 14px;
-line-height: 24px;
+line-height: calc(24 / 14);
 letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);
 text-decoration: none;
@@ -243,7 +246,7 @@ text-decoration: none;
 
 
 
-/* portfolio */
+/* -------------------------portfolio-------------------- */
 
 
 
@@ -265,15 +268,17 @@ text-decoration: none;
 }
 
 .portfolio__header__nav__link{
-padding-right: 50px;
+margin-right: 100px;
 width: 145px;
 height: 31px;
 font-family: 'Raleway';
 font-style: normal;
 font-weight: 700;
 font-size: 26px;
-line-height: 31px;
+line-height: calc(31 / 26);
 letter-spacing: 0.03em;
+color: #212121;
+text-decoration: none;
 }
 
 .header__web{
@@ -287,8 +292,8 @@ letter-spacing: 0.03em;
 .portfolio__header__nav__links{
     display: inline;
     text-decoration: none;
-    color: #212121;
-    margin-right: 30px;
+    color:#757575;
+    margin-right: 50px;
 }
 
 .portfolio__header__nav__li{
@@ -302,8 +307,8 @@ letter-spacing: 0.03em;
 
 .portfolio__header__nav__contact{
     text-decoration: none;
-    color: #212121;
-    margin-right: 20px;
+    color:#757575;
+    margin-right: 50px;
 }
 
 .portfolio__line{
@@ -344,6 +349,7 @@ background: #F5F4FA;
 border-radius: 4px;
 border: #F5F4FA;
 margin-right: 5px;
+cursor: pointer;
 }
 
 .portfolio__main__button__link{
@@ -408,7 +414,7 @@ font-family: 'Raleway';
 font-style: normal;
 font-weight: 700;
 font-size: 26px;
-line-height: 31px;
+line-height: calc(31 / 26);
 letter-spacing: 0.03em;
 color: #2196F3;
 }
