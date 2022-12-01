@@ -29,7 +29,8 @@ color: #212121;
     }    
 
     .header-nav{
-        display: flex;        
+        display: flex; 
+        align-items: baseline;       
     }
 
     .header-nav-menu{
@@ -320,6 +321,7 @@ margin-bottom: 10px;
 
 .portfolio-header-nav-menu{
      display: flex;
+     align-items: baseline;
 }
 
 .portfolio-header-webstydio{
