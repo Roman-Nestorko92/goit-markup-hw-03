@@ -20,7 +20,7 @@ color: #212121;
     }
 
     .section{
-        padding: 90px 0;
+        padding: 94px 0;
     }
 
     .header-item{
@@ -58,7 +58,7 @@ color: #212121;
 
     .header-contact-link{
         text-decoration: none;
-        color: #212121;
+        color: #757575;
         font-style: normal;
         font-weight: 500;
         font-size: 14px;
@@ -311,7 +311,7 @@ margin-bottom: 10px;
 }
 
 .section{
-    padding: 90px 0;
+    padding: 94px 0;
 }
 
 .portfolio-header{
@@ -388,6 +388,19 @@ color: #212121;
 
 /*---------------- links----------- */
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+
 .portfolio-section-links{
     padding-top: 100px;
     padding-bottom: 55px;
@@ -434,6 +447,14 @@ color: #212121;
 .portfolio-photo-link-item{
     margin-right: 30px;
     margin-bottom: 30px;
+}
+
+.photo-lim{
+    margin-bottom: 0;
+}
+
+.photo-brige{
+    margin-right: 0;
 }
 
 .portfolio-box{
